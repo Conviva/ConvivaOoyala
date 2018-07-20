@@ -4,7 +4,11 @@ The ConvivaOoyala Framework supports cocoapods and manual installation. The libr
 
 ## Cocoapods Installation
     Add the following line to your pod file and run 'pod install'
-
+   
+    source 'https://github.com/CocoaPods/Specs.git'
+    source 'https://github.com/Conviva/Conviva-PodSpecs.git'
+    source 'https://github.com/ooyala/ios-sdk-podspecs.git'
+    
     pod 'ConvivaOoyala','1.0.0'
 
 ## Manual Installation
